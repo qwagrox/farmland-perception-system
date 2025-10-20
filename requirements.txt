@@ -1,0 +1,33 @@
+# OAK-D行人与拖拉机检测项目依赖
+
+# 核心依赖
+ultralytics>=8.0.0        # YOLOv8训练和推理
+roboflow>=1.1.0           # Roboflow数据集下载
+depthai>=2.20.0           # OAK-D相机SDK
+blobconverter>=1.4.0      # 模型格式转换
+
+# 图像处理
+opencv-python>=4.8.0      # OpenCV
+opencv-contrib-python>=4.8.0  # OpenCV扩展模块
+Pillow>=10.0.0            # PIL图像处理
+
+# 科学计算
+numpy>=1.24.0             # 数值计算
+scipy>=1.11.0             # 科学计算
+
+# 深度学习
+torch>=2.0.0              # PyTorch
+torchvision>=0.15.0       # PyTorch视觉库
+
+# 数据处理
+pandas>=2.0.0             # 数据分析
+pyyaml>=6.0               # YAML配置文件
+
+# 可视化
+matplotlib>=3.7.0         # 绘图
+seaborn>=0.12.0           # 统计可视化
+
+# 工具
+tqdm>=4.65.0              # 进度条
+psutil>=5.9.0             # 系统监控
+
